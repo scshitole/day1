@@ -1,9 +1,5 @@
 terraform {
-  cloud {
-      workspaces {
-      name = "day1"
-    }
-  }
+ 
   required_providers {
     bigip = {
       source  = "F5Networks/bigip"
